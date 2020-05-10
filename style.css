@@ -5,9 +5,14 @@ body {
     margin-left: 0;
     margin-right: 0;
 }
+hr {
+    margin: 30px 0;
+    width: 90%;
+    border: 1px solid rgb(231, 231, 231);
+}
 #User {
-    transform: translateY(10%);
-    margin: 20px;
+    margin: 20px auto;
+    max-width: 1090px;
 }
 #userImg {
     padding-left: 0;
@@ -19,6 +24,9 @@ body {
     height: min-content;
     margin-right: 10px;
 }
+#rff {
+    width: 100%;
+}
 .card {
     min-width: 60vw;
 }
@@ -29,5 +37,10 @@ body {
     #userImg {
         width: 75%;
         margin: -10px;
+    }
+}
+@media only screen and (max-width: 1110px) {
+    #User {
+        margin: 20px;
     }
 }
