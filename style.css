@@ -1,0 +1,33 @@
+body {
+    background: rgb(241, 241, 241);
+}
+.row {
+    margin-left: 0;
+    margin-right: 0;
+}
+#User {
+    transform: translateY(10%);
+    margin: 20px;
+}
+#userImg {
+    padding-left: 0;
+    margin-top: -10px;
+    margin-bottom: -10px;
+    width: 0;
+}
+#imgOverlayTxt {
+    height: min-content;
+    margin-right: 10px;
+}
+.card {
+    min-width: 60vw;
+}
+#location {
+    color: rgb(36, 182, 36);
+}
+@media only screen and (max-width: 764px) {
+    #userImg {
+        width: 75%;
+        margin: -10px;
+    }
+}
