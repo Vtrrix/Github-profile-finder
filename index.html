@@ -97,8 +97,7 @@
 									<div class="row">
 										<div class="col-md-12">
 											<p class="card-text">
-												"This is a wider card with supporting text below as a
-												natural longer."
+												{{userData.bio}}
 											</p>
 										</div>
 										<hr />
@@ -108,7 +107,7 @@
 													Repos
 												</h5>
 												<h5 class="card-title display-4 font-weight-light">
-													25
+													{{userData.public_repos}}
 												</h5>
 											</div>
 											<div class="col-md-4">
@@ -116,7 +115,7 @@
 													Followers
 												</h5>
 												<h5 class="card-title display-4 font-weight-light">
-													225
+													{{userData.followers}}
 												</h5>
 											</div>
 											<div class="col-md-4">
@@ -124,7 +123,7 @@
 													Following
 												</h5>
 												<h5 class="card-title display-4 font-weight-light">
-													15
+													{{userData.following}}
 												</h5>
 											</div>
 										</div>

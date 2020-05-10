@@ -5,11 +5,12 @@ let User = new Vue({
 		userData: [],
 	}),
 	methods: {
-		fetchData: (name) => {
-			fetch(`https://api.github.com/users/${name}`)
+		fetchData(name) {
+			fetch('https://api.github.com/users/' + name)
 				.then((res) => res.json())
 				.then((data) => {
 					console.log(data);
+					this.userData = data
 				})
 				.catch((err) => {
 					console.log(err);
